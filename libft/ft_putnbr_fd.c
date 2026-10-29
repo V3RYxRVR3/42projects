@@ -6,7 +6,7 @@
 /*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 16:44:59 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/29 15:11:03 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/10/29 15:20:58 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	long nb;
-	char numb;
+	long	nb;
+	char	numb;
 
 	nb = n;
 	if (nb < 0)

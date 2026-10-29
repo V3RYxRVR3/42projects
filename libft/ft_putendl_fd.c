@@ -6,7 +6,7 @@
 /*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 17:46:00 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/29 15:11:03 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/10/29 15:20:45 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (s[i] == NULL)
