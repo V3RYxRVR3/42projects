@@ -6,9 +6,11 @@
 /*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 14:43:32 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/28 13:47:22 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/10/29 15:11:37 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isprint(int c)
 {

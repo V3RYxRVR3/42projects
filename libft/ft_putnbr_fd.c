@@ -6,10 +6,11 @@
 /*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 16:44:59 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/28 17:40:25 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/10/29 15:11:03 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <unistd.h>
 
 void	ft_putnbr_fd(int n, int fd)

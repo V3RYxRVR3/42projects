@@ -6,9 +6,11 @@
 /*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 14:11:32 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/27 14:29:05 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/10/29 15:11:32 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	isalpha(int c)
 {

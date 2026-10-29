@@ -6,9 +6,11 @@
 /*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 17:46:00 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/28 17:50:37 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/10/29 15:11:03 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {

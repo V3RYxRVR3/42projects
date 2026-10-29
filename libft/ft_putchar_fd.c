@@ -6,10 +6,11 @@
 /*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 16:35:15 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/28 16:44:47 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/10/29 15:11:04 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <unistd.h>
 
 void	ft_putchar_fd(char	c, int	fd)
