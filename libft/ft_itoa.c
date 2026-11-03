@@ -6,12 +6,13 @@
 /*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:29:22 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/03 14:34:11 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/03 15:12:48 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stduio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 char	*ft_itoa(int n)
 {
@@ -52,29 +53,10 @@ char	*ft_itoa(int n)
 	return (result);
 }
 
-#include <stdio.h>
-
-int main	(char *result);
+/*int main ()
 {
-	result = ft_itoa(123);
-	printf("123: %s\n", result);
-	free(result);
-
-	result = ft_itoa(-123);
-	printf("-123: %s\n", result);
-	free(result);
-
-	result = ft_itoa(0);
-	printf("0: %s\n", result);
-	free(result);
-
-	result = ft_itoa(INT_MAX);
-	printf("INT_MAX: %s\n", result);
-	free(result);
-
-	result = ft_itoa(INT_MIN);
-	printf("INT_MIN: %s\n", result);
-	free(result);
-
-	return (0);
-}
+	char *str;
+	str = ft_itoa(10000);
+	
+	printf("%s\n", str);
+}*/
