@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 16:46:19 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/29 16:50:54 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/05 12:49:12 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,4 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
+

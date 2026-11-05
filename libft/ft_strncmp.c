@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 15:04:00 by sofy              #+#    #+#             */
-/*   Updated: 2026/11/02 16:11:17 by sofy             ###   ########.fr       */
+/*   Updated: 2026/11/05 12:49:45 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,4 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		i++;
 	return (s1[i] - s2[i]);
 }
+

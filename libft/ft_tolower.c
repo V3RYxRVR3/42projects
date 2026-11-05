@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 16:27:17 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/29 15:19:44 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/05 12:50:03 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,4 @@ int	ft_tolower(int c)
 		c = c + 32;
 	return (c);
 }
+

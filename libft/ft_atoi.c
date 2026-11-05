@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 11:14:05 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/29 15:22:46 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/05 17:56:24 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <limits.h>
 
-int	ft_atoi(const char	*nptr)
+int	ft_atoi(const char *nptr)
 {
 	int		i;
 	int		s;

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:29:22 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/03 15:49:57 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/05 12:49:37 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,3 +49,4 @@ char	*ft_itoa(int n)
 		result[0] = '-';
 	return (result);
 }
+

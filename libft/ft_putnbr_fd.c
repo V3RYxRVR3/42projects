@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 16:44:59 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/10/29 15:20:58 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/05 12:50:54 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,4 @@ void	ft_putnbr_fd(int n, int fd)
 	numb = nb % 10 + '0';
 	write(fd, &numb, 1);
 }
+

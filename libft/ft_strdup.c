@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 16:54:34 by sofy              #+#    #+#             */
-/*   Updated: 2026/11/03 14:31:03 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/05 12:50:47 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,4 @@ char	*ft_strdup(const char *s)
 	copy[i] = '\0';
 	return (copy);
 }
+
