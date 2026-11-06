@@ -6,12 +6,11 @@
 /*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 17:11:58 by sofy              #+#    #+#             */
-/*   Updated: 2026/11/05 12:50:25 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/06 16:03:13 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 
 char	*ft_strchr(const char *s, int c)
 {

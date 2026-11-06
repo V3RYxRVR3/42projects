@@ -6,12 +6,11 @@
 /*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 11:26:54 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/05 13:06:47 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/06 16:04:11 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 
 void	ft_bzero(void *s, size_t n)
 {

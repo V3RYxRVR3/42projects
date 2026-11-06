@@ -6,12 +6,11 @@
 /*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:29:22 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/05 12:49:37 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/06 16:04:22 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static size_t	num_len(unsigned int n)
 {
