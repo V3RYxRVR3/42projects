@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 17:40:40 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/06 13:34:48 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/09 12:59:45 by sofy             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putstr_fd(char *s, int fd)
 	int	i;
 
 	i = 0;
-	if (s == NULL)
+	if (s == NULL || fd < 0)
 		return ;
 	while (s[i] != '\0')
 	{

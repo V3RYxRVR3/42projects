@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 16:44:59 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/06 13:34:35 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/09 16:17:29 by sofy             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	ft_putnbr_fd(int n, int fd)
 	char	numb;
 
 	nb = n;
+	if (fd < 0)
+		return ;
 	if (nb < 0)
 	{
 		write(fd, "-", 1);
