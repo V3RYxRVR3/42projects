@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 13:41:05 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/06 16:03:39 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/09 16:35:28 by sofy             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,3 @@ size_t	strlen(const char *s)
 		i++;
 	return (i);
 }
-

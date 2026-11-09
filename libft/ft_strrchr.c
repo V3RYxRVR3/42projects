@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 11:02:11 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/06 13:09:08 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/09 16:36:26 by sofy             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,3 @@ char	*strrchr(const char *str, int c)
 		return ((char *)&str[0]);
 	return (NULL);
 }
-
