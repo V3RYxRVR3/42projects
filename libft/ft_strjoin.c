@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofdomin <sofdomin@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/06 13:07:09 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/06 13:29:39 by sofdomin         ###   ########.fr       */
+/*   Updated: 2026/11/09 17:20:09 by sofy             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
-	char *	result;
+	char	*result;
 	size_t	i;
 	size_t	j;
 

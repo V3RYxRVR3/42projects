@@ -6,7 +6,7 @@
 /*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 11:48:10 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/09 16:36:38 by sofy             ###   ########.fr       */
+/*   Updated: 2026/11/09 17:01:43 by sofy             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 	if (s == NULL || f == NULL)
 		return (NULL);
+	len = 0;
 	while (s[len] != '\0')
 		len++;
 	result = malloc(len + 1);

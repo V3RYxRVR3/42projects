@@ -6,13 +6,13 @@
 /*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 13:41:05 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/09 16:35:28 by sofy             ###   ########.fr       */
+/*   Updated: 2026/11/09 16:42:19 by sofy             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
 	size_t	i;
 

@@ -6,7 +6,7 @@
 /*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 17:46:00 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/09 13:08:10 by sofy             ###   ########.fr       */
+/*   Updated: 2026/11/09 17:03:41 by sofy             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putendl_fd(char *s, int fd)
 	int	i;
 
 	i = 0;
-	if (s[i] == NULL || fd < 0)
+	if (s == NULL || fd < 0)
 		return ;
 	while (s[i] != '\0')
 	{
