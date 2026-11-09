@@ -6,7 +6,7 @@
 /*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/06 13:15:55 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/09 17:00:39 by sofy             ###   ########.fr       */
+/*   Updated: 2026/11/09 20:36:42 by sofy             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static size_t	count_words(char const *s, char c)
 	i = 0;
 	while (s[i] != '\0')
 	{
-		if (s[1] != c && (i == 0 || s[i - 1] == c))
+		if (s[i] != c && (i == 0 || s[i - 1] == c))
 			count++;
 		i++;
 	}
@@ -64,7 +64,7 @@ static int	fill(char **arr, char const *s, char c)
 		}
 	}
 	arr[i] = NULL;
-	return (arr);
+	return (1);
 }
 
 char	**ft_split(char const *s, char c)
@@ -76,7 +76,7 @@ char	**ft_split(char const *s, char c)
 	arr = malloc((count_words(s, c) + 1) * sizeof(char *));
 	if (arr == NULL)
 		return (NULL);
-	if (fill(arr, s, c) == NULL)
+	if (!fill(arr, s, c))
 		return (NULL);
 	return (arr);
 }
