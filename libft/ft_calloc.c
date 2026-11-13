@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofy <sofy@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: sofdomin <sofdomin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 12:45:51 by sofdomin          #+#    #+#             */
-/*   Updated: 2026/11/09 17:27:34 by sofy             ###   ########.fr       */
+/*   Updated: 2026/11/13 16:53:53 by sofdomin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,4 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_bzero(ptr, (nmemb * size));
 	return (ptr);
 }
+// size * nmemb > SIZE_MAX
